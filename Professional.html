@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Worker Dashboard - Service Sphere</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="display"><img src="ASSETS/logo.png" alt="Service Sphere Logo" class="logo">
+        <p class="mainhead">Worker Dashboard</p>
+      </div>
+      
+      <nav>
+        <a href="#jobs">Job Requests</a>
+        <a href="#history">Job History</a>
+        <a href="#profile">Profile</a>
+        <a href="index.html" class="logout-btn">Logout</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="jobs" class="section">
+     <div class="job-request">
+      <p class="service-name">Service: AC Repair</p>
+      <p class="customer-name">Customer: Rohit Rai</p>
+      <p class="location">Location: Noida, Sector 62</p>
+      <button class="btn accept-btn">Accept</button>
+      <button class="btn reject-btn">Reject</button>
+    </div>
+    <div class="job-request">
+      <p class="service-name">Service: Appliance Repair</p>
+      <p class="customer-name">Customer: Aman </p>
+<p class="location">Location: Noida, Sector 14</p>
+      <button class="btn accept-btn">Accept</button>
+      <button class="btn reject-btn">Reject</button>
+    </div>
+    <div class="job-request">
+      <p class="service-name">Service: AC Repair</p>
+      <p class="customer-name">Customer: Rahul</p>
+       <p class="location">Location: Noida, Sector 10</p>
+      <button class="btn accept-btn">Accept</button>
+      <button class="btn reject-btn">Reject</button>
+    </div>
+      <!-- Add more job requests -->
+    </section>
+
+    <section id="history" class="section">
+      <h2>Job History</h2>
+      <div class="history-card">
+        <p>Service: AC Repair</p>
+        <p>Customer: Rohit Rai</p>
+        <p>Status: Completed</p>
+      </div>
+      <section id="history" class="section">
+        <div class="history-card">
+          <p>Service: AC Repair</p>
+          <p>Customer: Alok</p>
+          <p>Status: Completed</p>
+        </div>
+      <!-- Add more job history cards -->
+    </section>
+
+    <section id="profile" class="section">
+      <h2>Your Profile</h2>
+      <img src="ASSETS/amit.jpg" alt="Professional Profile">
+      <p>Name: Amit Sharma</p>
+      <p>Service Area: Taramandal</p>
+      <p>Experience : 5 years as an electrician</p>
+      <p>mobile number : 12345678</p>
+      <!-- Add more profile details -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Service Sphere. All rights reserved.</p>
+  </footer>
+  <script src="main.js"></script>
+
+</body>
+</html>

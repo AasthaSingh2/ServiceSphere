@@ -1,0 +1,55 @@
+<!-- booking.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-and-title">
+            <a href="customer.html" class="logo">
+                <img src="ASSETS/logo.png" alt="Service Sphere Logo">
+            </a>
+            <div class="title">
+                <h1>Service Sphere</h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="booking-container">
+        <h2>Book Your Service</h2>
+        <p class="service-name">Service: Plumbing</p> <!-- Dynamically update this depending on the service -->
+        
+        <div class="service-details">
+            <p><strong>Price:</strong> $100</p> <!-- Dynamically set price -->
+            
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date">
+
+            <label for="time">Select Time:</label>
+            <input type="time" id="time" name="time">
+
+            <div class="payment-options">
+                <label for="payment-method">Payment Method:</label>
+                <select id="payment-method" name="payment-method">
+                    <option value="online">Online</option>
+                    <option value="offline">Offline</option>
+                </select>
+            </div>
+
+            <div class="confirmation">
+                <button id="book-now-btn">Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact | Terms & Conditions | Privacy Policy</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
